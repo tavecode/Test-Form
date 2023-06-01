@@ -34,12 +34,16 @@ form {
     flex-direction: column;
 }
 
-form
-
+.line3 {
+    background: white;
+    margin: 0;
+    padding: 1em;
+}
 
 .formbody {
     background-color: white;
     height: 40%;
+    padding-left: 32px;
 
 }
 
@@ -52,16 +56,30 @@ form
 .createacc {
     background-color: var(--green-buttons);
     color: white;
-    width: 20%;
-    margin: 32px;
+    width: fit-content;
+    padding: 8px;
+   /* width: 20%;*/
+    margin-top: 32px;
+    margin-left: 32px;
     font-size: 24px;
     border-radius: 8px;
     border: none;
     height: 2em;
 }
 
+.bottomtxt {
+    display: flex;
+    margin: 16px 16px 64px 32px;
+    font-size: 24px;
+}
+
 a {
     text-decoration: none;
     font-weight: 900;
     color: var(--green-buttons);
+    margin: 1em;
+}
+
+.label, .input {
+    flex-basis: 50%;
 }
