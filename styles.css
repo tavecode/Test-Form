@@ -1,3 +1,9 @@
+:root {
+    --green-buttons: #596D48;
+    --input-borders: #E5E7EB;
+    --dark-font:  #1e1e1e;
+}
+
 html,
 body {
     margin: 0;
@@ -9,12 +15,31 @@ body {
     display: flex;
 }
 
+h1 {
+    color: var(--dark-font);
+    margin-left: 42px;
+}
+
+.line1 {
+    margin-top: 4em;
+}
+
+.line2 {
+    margin-top: 0;
+    margin-bottom: 42px;
+}
+
 form {
     display: flex;
     flex-direction: column;
 }
 
+form
+
+
 .formbody {
+    background-color: white;
+    height: 40%;
 
 }
 
@@ -22,4 +47,21 @@ form {
 #leaves {
     height: auto;
     width: 30%;
+}
+
+.createacc {
+    background-color: var(--green-buttons);
+    color: white;
+    width: 20%;
+    margin: 32px;
+    font-size: 24px;
+    border-radius: 8px;
+    border: none;
+    height: 2em;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 900;
+    color: var(--green-buttons);
 }
